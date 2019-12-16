@@ -1,0 +1,44 @@
+# CLI
+
+커멘드 라인 인터페이스
+
+
+
+## 터미널 명령어들
+
+- `ls`:  폴더 내부의 팡리 & 폴더를 나열
+- `pwd`: 현재 폴더 경로 출력
+
+- `mkdir[폴더명]`: 폴더 생성
+
+```shell
+$ mkdir TIL
+```
+
+- `cd`[폴더명]: (Change Directory)  폴더 변경 
+
+```shell
+$ cd TIL/
+```
+
+- `cd ..` : 상위 폴더로 이동 
+- `git init` : 해당 현재 폴더에서 git 을 시작한다. 
+- `git status`:  git 의 현재상태를 묻는다.
+- `touch[파일명]`: 파일을 새로 생성함. 
+
+- `rm[파일명.확장자]` : 파일 삭제 
+- `git add[파일명]`: 
+- `git commit`: 사진대에 올려놓음. 
+- $ git config -- global user.emil
+- $ git config -- global user.name
+- git comit -m "first commit" : 첫번째 버전을 저장함 m 은 메세지라는 뜻. 사진찍듯이 초기 버전 저장. 
+
+
+
+사진대에 올려놓는다 git add
+
+사진대에 올려 놓는 것을 저장한다.  git commit
+
+
+
+- git log : 내가 찍었던 첫번째 사진에 대한 정보가 나온다. 무엇을 저장했는지,  저장하면서 남긴 메세지가 무엇인지. 
