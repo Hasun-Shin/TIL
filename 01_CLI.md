@@ -27,11 +27,14 @@ $ cd TIL/
 - `touch[파일명]`: 파일을 새로 생성함. 
 
 - `rm[파일명.확장자]` : 파일 삭제 
-- `git add[파일명]`: 
-- `git commit`: 사진대에 올려놓음. 
+- `git add[파일명]`: 사진대에 올려놓음.  
+- `git commit`: 
 - $ git config -- global user.emil
 - $ git config -- global user.name
 - git comit -m "first commit" : 첫번째 버전을 저장함 m 은 메세지라는 뜻. 사진찍듯이 초기 버전 저장. 
+- git log : 내가 찍었던 첫번째 사진에 대한 정보가 나온다. 무엇을 저장했는지,  저장하면서남긴 메세지가 무엇인지. 
+- git checkout  앞 다섯글자 -> 이전 버전으로 돌아감 (현재 파일 없어짐)
+- 다시 원래대로 돌려놓고 싶으면 checkout  master 를 사용함. 
 
 
 
@@ -41,4 +44,6 @@ $ cd TIL/
 
 
 
-- git log : 내가 찍었던 첫번째 사진에 대한 정보가 나온다. 무엇을 저장했는지,  저장하면서 남긴 메세지가 무엇인지. 
+- git remote add origint(저장소의 별명) (원격 저장소의 주소) -> 앞으로 이 주소에다가 올릴거야 
+- git remote -v  : 정보 알기 
+- git push origin master  : 로그인 창이 나옴 
