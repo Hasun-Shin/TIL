@@ -47,4 +47,4 @@ $ cd TIL/
 - git remote add (저장소의 별명 e.g origin) (원격 저장소의 주소) -> 앞으로 이 주소에다가 올릴거야 
 - git remote -v  : 정보 알기 
 - git push (저장소 별명 :origin) master  : 로그인 창이 나옴 
-- git remote rename (원래 이름)(바꿀 이름) : 원격 저장소 이름 바꾸기 
+- git remote rename `(원래 이름)``(바꿀 이름)` : 원격 저장소 이름 바꾸기
