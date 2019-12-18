@@ -19,11 +19,11 @@
 ## 예시 작업
 
 - master branch  에서 a.txt, b.txt, c.txt 만든다.
+-  각 생성한 텍스트 파일을 **add** 하고 **commit** 해준다 ! 
 - git branch new 를 만들어준다.
-- new branch 에서 d.txt 를 만들어준다. 총 new 에는 a,b,c,d 텍스트 파일이 생겨진다.
+- new branch 에서 d.txt 를 만들어준다. 총 ㅎnew 에는 a,b,c,d 텍스트 파일이 생겨진다.
 - new 에서 만든 새로운 파일 d.txt 는 master 에서는 보여지지 않는다.  a,b,c 만 있음.
 - master로 switch 하여 master 에서 e.txt 를 만들었다.  총 **master** 에는 **a,b,c,e** 만 있다.
-
 - 다시 new로 switch 한다. **new** 에는 최종적으로 **a,b,c,d** 만 있다.
 
 ----
@@ -76,6 +76,7 @@
 merge 시점에 양쪽 branch에 commit들이 쌓여 있고, conflict 가 발생하는 경우 
 
 - 동일 파일 내에(파일명이 같음) 상충하는 내용이 있을 경우 
+- 충돌 경고 메세지가 발생하면 메모장에서 
 
 그러므로, 여러 사람들과 동일 작업을 할 때 
 
