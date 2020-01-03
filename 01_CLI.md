@@ -71,5 +71,7 @@ $ cd TIL/
 
 -  `git remote add origin https://github.com/Hasun-Shin/conflict.git(주소)` :원격저장소 생성 
 
+- rm -rf ./.git : git생성한 것을 
+
 
 
