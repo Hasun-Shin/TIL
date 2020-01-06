@@ -71,7 +71,8 @@ $ cd TIL/
 
 -  `git remote add origin https://github.com/Hasun-Shin/conflict.git(주소)` :원격저장소 생성 
 
-- rm -rf ./.git : git생성한 것을 삭제함
+- `rm -rf ./.git` : git생성한 것을 삭제함
 
+- `esc 세번, :wq` : 돌이킬 수 없는 강을 건널 때 빠져나옴 
 
 
