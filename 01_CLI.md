@@ -42,6 +42,12 @@ $ cd TIL/
 - `git log` : 내가 찍었던 첫번째 사진에 대한 정보가 나온다. 무엇을 저장했는지,  저장하면서남긴 메세지가 무엇인지. 
 
 - `git log --oneline` :  log 정보를 한 줄로 출력해서 보기  
+- git reset --mixed HEAD^ : commit을 취소하고 해당 파일들은 unstaged 상태로 워킹 디렉터리에 보존
+-  git reset HEAD^ : 위와 동일
+-  git reset HEAD~2 // 마지막 2개의 commit을 취소
+
+
+
 
 - `git checkout`(git log에서 출력된 코드에서)  앞 다섯글자  : 앞 다섯글자에 해당하나는 이전 버전으로 돌아감 (현재 파일 없어짐)
 
